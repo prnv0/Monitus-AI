@@ -1,0 +1,5 @@
+.red-icon {
+    color: red !important;
+    background-color: red;
+    size: 10rem; /* Add !important to ensure the style takes precedence */
+  };

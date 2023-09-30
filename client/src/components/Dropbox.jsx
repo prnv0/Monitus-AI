@@ -7,13 +7,18 @@ const Patients = [
   "Pranav Sathish",
   "Sreehari S",
   "Richard Jopseph",
+  "StuartLittle",
 ];
-export default function Dropbox() {
+export default function Dropbox({ onDropdownChange }) {
+  const handleDropdownChange = (event, value) => {
+    onDropdownChange(value); // Pass the selected value back to the parent component
+  };
   return (
     <Autocomplete
       disablePortal
       options={Patients}
       sx={{ width: { sm: 100, md: 200, lg: 250, xl: 350 } }}
+      onChange={handleDropdownChange}
       renderInput={(params) => (
         <TextField {...params} label='Patient' color='success' focused />
       )}
