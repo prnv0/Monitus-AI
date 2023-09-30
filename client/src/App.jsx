@@ -23,7 +23,7 @@ function App() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 3 }}
-            className='bg-[#ffffff4d] justify-around text-black rounded-2xl p-8 font-bold flex sm:gap-8 md:gap-10 lg:gap-16 text-lg shadow-xl  max-h-32 sm:max-w-xl md:max-w-[55rem] lg:max-w-6xl xl:max-w-full'>
+            className='bg-[#ffffff4d] justify-around text-black rounded-2xl p-8 font-bold flex gap-8 md:gap-10 lg:gap-16 text-lg shadow-xl  max-h-32 sm:max-w-xl md:max-w-[55rem] lg:max-w-6xl xl:max-w-full'>
             <Dropbox />
             <Prompt />
             <FontAwesomeIcon
@@ -41,7 +41,7 @@ function App() {
                 },
               }}
               variant='contained'
-              className='sm:w-20 md:w-24 lg:w-28 xl:w-32'>
+              className='w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32'>
               Submit
             </Button>
           </m.div>

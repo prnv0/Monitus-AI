@@ -24,8 +24,8 @@ export default function MediaCard() {
         <Card
           className='hover:scale-110 hover:transition hover:duration-500'
           sx={{
-            width: { sm: 250, md: 275, lg: 300 },
-            height: { sm: 300, md: 325, lg: 350 },
+            width: { xs: 200, sm: 250, md: 275, lg: 300 },
+            height: { xs: 250, sm: 300, md: 325, lg: 350 },
             borderRadius: 4,
           }}>
           <CardHeader

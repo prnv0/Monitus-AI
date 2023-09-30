@@ -9,7 +9,7 @@ export default function Prompt() {
       sx={{
         "& > :not(style)": {
           m: 1,
-          width: { sm: 100, md: 300, lg: 400, xl: 500 },
+          width: { xs: 90, sm: 100, md: 300, lg: 400, xl: 500 },
         },
       }}
       noValidate
