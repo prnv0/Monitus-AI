@@ -13,7 +13,7 @@ export default function Dropbox() {
     <Autocomplete
       disablePortal
       options={Patients}
-      sx={{ width: 300 }}
+      sx={{ width: { sm: 100, md: 200, lg: 250, xl: 350 } }}
       renderInput={(params) => (
         <TextField {...params} label='Patient' color='success' focused />
       )}

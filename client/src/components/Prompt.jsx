@@ -7,7 +7,10 @@ export default function Prompt() {
     <Box
       component='form'
       sx={{
-        "& > :not(style)": { m: 1, width: 600 },
+        "& > :not(style)": {
+          m: 1,
+          width: { sm: 100, md: 300, lg: 400, xl: 500 },
+        },
       }}
       noValidate
       autoComplete='off'>

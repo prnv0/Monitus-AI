@@ -23,12 +23,12 @@ function App() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 3 }}
-            className='bg-[#ffffff4d] justify-around text-black rounded-2xl p-8 font-bold flex gap-28 text-lg shadow-lgw-lg max-h-32'>
+            className='bg-[#ffffff4d] justify-around text-black rounded-2xl p-8 font-bold flex sm:gap-8 text-lg shadow-lgw-lg max-h-32 sm:max-w-xl md:max-w-[55rem] lg:max-w-6xl xl:max-w-full'>
             <Dropbox />
             <Prompt />
             <FontAwesomeIcon
-              className='mt-4 hover:scale-110 hover:transition hover:duration-500'
-              size='2x'
+              className='mt-4 hover:scale-110 hover:transition hover:duration-500 sm:text-2xl sm:pt-3 md:text-3xl lg:pt-2'
+              // size='2x'
               icon={faMicrophone}
               style={{ color: "#23b38f" }}
             />
@@ -41,7 +41,7 @@ function App() {
                 },
               }}
               variant='contained'
-              className='w-40'>
+              className='sm:w-20 md:w-24 lg:w-28 xl:w-32'>
               Submit
             </Button>
           </m.div>
